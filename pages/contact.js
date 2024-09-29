@@ -33,7 +33,7 @@ const Contact = () => {
       setDesc('')
     }
     try {
-      const res = await fetch(`${apiUrl}/postcontact`, {
+      const res = await fetch(`${apiUrl}/api/postcontact`, {
         method: 'POST',
         body: JSON.stringify(formData),
         headers: {
