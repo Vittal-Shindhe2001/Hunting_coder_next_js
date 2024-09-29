@@ -1,0 +1,16 @@
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    padding-top: 3rem
+}
+.blogItemh3{
+  cursor: pointer;
+  text-decoration: none;
+    
+}
+.blogItemp{
+  max-width: 45vw;
+}

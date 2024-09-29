@@ -25,3 +25,20 @@ body {
     text-wrap: balance;
   }
 }
+.mainnav{
+  margin: 2px 0px auto auto;
+}
+.mainnav ul{
+  display: flex;
+  justify-content: center;
+}
+
+.mainnav ul li{
+  font-weight: bold;
+  margin: 0 1rem;
+  
+}
+
+.developerImage{
+  border-radius: 10px;
+}
