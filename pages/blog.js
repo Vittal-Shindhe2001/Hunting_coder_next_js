@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from '../styles/blog.module.css'
 import Link from 'next/link'
-// import * as fs from 'fs'
+import * as fs from 'fs'
 // step1: collect all the files from blogdata directory
 // step2:Iterate through the and display them
 const Blog = (props) => {
