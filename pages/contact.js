@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 const Contact = () => {
+  const apiUrl = process.env.NEXT_PUBLIC_API;
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [phone, setPhone] = useState('')
@@ -32,7 +33,7 @@ const Contact = () => {
       setDesc('')
     }
     try {
-      const res = await fetch('http://localhost:3000/api/postcontact', {
+      const res = await fetch(`${apiUrl}/postcontact`, {
         method: 'POST',
         body: JSON.stringify(formData),
         headers: {
